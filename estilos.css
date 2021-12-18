@@ -2,7 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 }
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 2000px) {
 	body{
 		overflow-x: hidden;
 	}
@@ -84,9 +84,11 @@
 		height: 400px;
 	}
 	img{
-		display: inline-block;
 		margin-left: 20px;
 		margin-bottom: 30px;
+		font-size: 12px;
+		height: 110px;
+		width: auto;
 	}
 	.container-contenido{
 		justify-content: center;
@@ -99,7 +101,7 @@
 		height: 100%;
 		display: grid;
 		grid-template-columns: repeat(4);
-		grid-template-rows: repeat(10. 2fr);
+		grid-template-rows: repeat(10. 3fr);
 		gap: 10px;
 		grid-template-areas: 
 		"header header header header"
@@ -118,7 +120,7 @@
 	}
 	.acces{
 		background-color: #FFF;
-		grid-area: acces;
+		grid-area: access;
 	}
 	.footer-v1 ul{
 		list-style: none;
@@ -163,7 +165,7 @@
 		margin-inline-end: 20px;
 		grid-column-gap: 10px;
 		grid-row-gap: 15px;
-		width: 95%;
+		width: 100%;
 		height: 100%;
 		display: grid;
 		grid-template-columns: repeat(4);
@@ -193,7 +195,7 @@
 	}
 }
 
-@media screen and (min-width: 300px) {
+@media (min-width: 300px) and (max-width: 500px) {
 	body{
 		overflow-x: hidden;
 	}
@@ -376,7 +378,6 @@
 		"img-contact img-contact img-contact img-contact"
 		"relleno relleno relleno relleno"
 		"footer footer footer footer";
-		flex-wrap: nowrap;
 	}
 	.container-contactos{
 		text-align: center;
