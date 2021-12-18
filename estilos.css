@@ -1,8 +1,4 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
-@media (min-width: 600px) and (max-width: 2000px) {
+
 	body{
 		overflow-x: hidden;
 	}
@@ -84,8 +80,15 @@
 		width: auto;
 		height: 400px;
 	}
-	img{
+	.container-contenido img{
 		margin-left: 20px;
+		margin-bottom: 30px;
+		font-size: 12px;
+		height: 150px;
+		width: auto;
+	}
+	.container-productos img{
+		margin-left: 30px;
 		margin-bottom: 30px;
 		font-size: 12px;
 		height: 150px;
@@ -228,7 +231,13 @@
 		margin-top: 10px;
 		padding: 10px;
 	}
-}
+	.container-productos .col iframe{
+		display: inline-block;
+		margin-inline-start: 50px;
+		width: auto;
+		height: 400px;
+
+	}
 
 @media (min-width: 300px) and (max-width: 500px) {
 	body{
