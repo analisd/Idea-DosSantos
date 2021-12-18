@@ -51,11 +51,6 @@
 	.menu a{
 		text-decoration: none;
 	}
-	h2{
-		margin-top: 10px;
-		margin-bottom: 10px;
-		padding: 10px;
-	}
 	a{
 		color: #000;
 		font-size: 14px;
@@ -67,10 +62,12 @@
 		border-left:solid 12px #000;
 	}
 		
-	h3{
+	.container-contenido h3{
 		margin-top: 10px;
 		margin-bottom: 20px;
 		margin-left: 10px;
+		font-size: 18px;
+
 	}
 	.multimedia{
 		text-align: center;
@@ -92,7 +89,7 @@
 	.container-contenido{
 		justify-content: center;
 		margin-bottom: 20px;
-		margin-inline-start: 20px;
+		margin-inline-start: 250px;
 		margin-inline-end: 20px;
 		grid-column-gap: 10px;
 		grid-row-gap: 15px;
@@ -192,7 +189,7 @@
 	.container-contactos ul{
 		list-style: none;
 	}
-	.container-contenido section img:hover{
+	.container-contenido img:hover{
 		transform: scale(1.2, 1.2);
 	}
 	.container-contenido h2{
@@ -204,7 +201,10 @@
 		width: 300px;
 		height: auto;
 		color: #000;
-		font-size: 16px;
+		font-size: 20px;
+		margin-bottom: 14px;
+		margin-top: 10px;
+		padding: 10px;
 	}
 }
 
