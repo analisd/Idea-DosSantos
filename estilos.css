@@ -40,6 +40,7 @@
 	}
 	.menu{
 		text-align: center;
+		color: #000;
 	}
 	.menu li{
 		display: inline-block;
@@ -51,7 +52,11 @@
 	.menu a{
 		text-decoration: none;
 	}
-	a{
+	.menu a{
+		color: #000;
+		font-size: 14px;
+	}
+	.footer-v1 a{
 		color: #000;
 		font-size: 14px;
 	}
@@ -86,38 +91,38 @@
 		height: 150px;
 		width: auto;
 	}
-	.container-contenido{
-		justify-content: center;
+	.container-contenido .row h2{
+		text-align: left;
+    	margin-left: 330px;
+		font-size: 32px;
+	}
+	.container-contenido .row h3{
+		text-align: left;
+    	margin-left: 340px;
 		margin-bottom: 20px;
-		margin-inline-start: 250px;
-		margin-inline-end: 20px;
-		grid-column-gap: 10px;
-		grid-row-gap: 15px;
-		width: 95%;
-		height: 100%;
-		display: grid;
-		grid-template-columns: repeat(4);
-		grid-template-rows: repeat(10. 3fr);
-		gap: 10px;
-		grid-template-areas: 
-		"header header header header"
-		"cell cell cell cell"
-		"phone phone phone phone"
-		"iframe iframe iframe"
-		"footer-v1 footer-v1 footer-v1 footer-v1";
+		font-size: 18px;
 	}
-	.cell{
-		background-color: #FFF;
-		grid-area: cell;
+	.container-contenido{
+		text-align: center;
+		margin-bottom: 20px;
+		margin-inline-start: 130px;		
 	}
-	.phone{
-		background-color: #FFF;
-		grid-area: cell;
+	.container-productos .row h2{
+		text-align: left;
+    	margin-left: 350px;
+		font-size: 32px;
 	}
-	.acces{
-		background-color: #FFF;
-		grid-area: access;
+	.container-productos .row h3{
+		text-align: left;
+    	margin-left: 360px;
+		margin-bottom: 20px;
+		font-size: 18px;
 	}
+	.container-productos{
+		text-align: center;
+		margin-bottom: 20px;
+		margin-inline-start: 50px;	
+  	}
 	.footer-v1 ul{
 		list-style: none;
 		margin-bottom: auto;
@@ -197,6 +202,23 @@
 		transition: all 2s ease;
 	}
 	 .container-contenido h2:hover{
+		background-color: #88b8fa;
+		width: 300px;
+		height: auto;
+		color: #000;
+		font-size: 20px;
+		margin-bottom: 14px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.container-productos img:hover{
+		transform: scale(1.2, 1.2);
+	}
+	.container-productos h2{
+		background-color: #FFF;
+		transition: all 2s ease;
+	}
+	 .container-productos h2:hover{
 		background-color: #88b8fa;
 		width: 300px;
 		height: auto;
