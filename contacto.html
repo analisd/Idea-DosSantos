@@ -31,57 +31,72 @@
 
     <!--Start File RRSS-->
     <hr>
-	<div class="container-contactos">	
-		<h3>Contacto</h3>
-			<ul>
-				<ul>Teléfono: + 54 9 11 1234 5678</ul>
-				<ul>Correo eléctronico: matiraphstore@gmail.com</ul>
-			</ul>
-		</h3>
+	<div class="container-contactos">
+		<div class="row">
+			<div class="col-6">
+				<h3>Contacto</h3>
+					<ul>
+						<ul>Teléfono: + 54 9 11 1234 5678</ul>
+						<ul>Correo eléctronico: matiraphstore@gmail.com</ul>
+					</ul>
+				</h3>
+			</div>	
 
-		<h3>Redes Sociales</h3>
-		<ul>
-			<li><a href="https://www.instagram.com/matiraphstore/">Ir a Instagram</a></li>
-			<li><a href="https://www.facebook.com/matiraphstore/">Ir a Facebook</a></li>
-		</ul>
-	</div>
+			<div class="col-6">
+				<h3>Redes Sociales</h3>
+				<ul>
+					<li><a href="https://www.instagram.com/matiraphstore/">Ir a Instagram</a></li>
+					<li><a href="https://www.facebook.com/matiraphstore/">Ir a Facebook</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>	
     <!--End File RRSS-->
 
 	<!-- Star Forms -->
 	<hr>
-	<div class="img-contact">
-		<img src="./media/contact.png" alt="image-contact">
-		<h3>Información</h3>
-	</div>
-	
 	<div class="relleno">
-		<article>
-			<form action="#">
-				<label for="email">Nombre y Apellido:
-				<input type="text" placeholder="Nombre y Apellido"><br>
-				<label for="email">Correo eléctronico:
-					<input type="email" placeholder="hola@gmail.com" name="email"><br>
-				</label>
-				<label for="Observaciones">Tu consulta:<br>
-					<textarea placeholder="Escribí acá"></textarea>
-				<div>Querés recibir más información?
-				<input type="checkbox" name="Aceptar" value="1"></div>
-				<input type="submit" value="Enviar">
-			</form>
-		</article>
-	</div>
+		<div class="row align-items-center">
+			<div class="col-12">
+				<div class="img-contact">
+					<img src="./media/contact.png" alt="image-contact">
+					<h3>Información</h3>
+				</div>		
 
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Correo eléctronico</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+				</div>
+
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+54 9 11 1234 5678">
+				</div>
+
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Tu consulta</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				
+				<div class="mb-3">
+					<button type="submit" class="btn btn-primary mb-3">Enviar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- End Forms -->
 
 	<!--Start footer--> 
 	<div class="footer-v1">
-		<footer>
-			<h3>
-				<img class="logo_img" src="./media/matiraph.png" alt="image-contact"> 
-			</h3>
-			<h4>Redes Sociales</h4>
-			<a color href="./contacto.html"><strong>Contacto</strong></a>
-		</footer>
+		<div class="logo_img">
+			<img class="logo_img" src="./media/matiraph.png" alt="image-contact"> 
+		</div>
+		<div>
+			<ul>
+				<li><a color href="./contacto.html"><strong>Redes Sociales</strong></a></li>
+				</li><a color href="./contacto.html"><strong>Contacto</strong></a></li>
+			</ul>
+		</div>
 	</div>
     <!--End footer--> 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
