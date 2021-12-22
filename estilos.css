@@ -137,6 +137,8 @@
 		display: flex;
 		padding: 10%;
 		padding-top: 10px;
+		margin-bottom: 50px;
+		max-width: 100%;
 	}
 	.container-contactos h3{
  		text-align: center;
