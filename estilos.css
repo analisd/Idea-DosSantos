@@ -46,25 +46,43 @@
 	.footer-v1 a{
 		color: #000;
 		font-size: 14px;
+	}
+	.footer-v1 ul{
+		list-style: none;
+		margin-bottom: auto;
+	}
+	.footer-v1 a{
+		text-decoration: none;
+		margin-bottom: 20px;
+		font-size: 16px;
 	}	
-	.multimedia{
+	.encuentranos{
+		justify-content: center;
+		display: flex;
+		padding: 10%;
+		padding-top: 10px;
+		padding-bottom: 5%;
+		max-width: 100%;
+	}
+	.encuentranos iframe{
+		display: inline-block;
+		width: 283px;
+		height: 400px;
+		margin-bottom: 20px;
+	}
+	.encuentranos ul{
+		list-style: none;
+	}
+	.container-principal{
+		justify-content: center;
 		display: flex;
 		padding: 10%;
 		padding-top: 10px;
 		margin-bottom: 50px;
-	}
-	.multimedia iframe{
-		display: inline-block;
-		width: auto;
-		height: 400px;
+		max-width: 100%;
 	}
 	.container-principal img{
-		margin-bottom: 30px;
-		font-size: 12px;
-		height: 100px;
-		width: auto;
-	}
-	.container-productos img{
+		margin-left: 20px;
 		margin-bottom: 30px;
 		font-size: 12px;
 		height: 100px;
@@ -77,80 +95,35 @@
 		margin-bottom: 20px;
 		font-size: 18px;
 	}
-	.container-productos .row h2{
-		font-size: 20px;
-	}
-	.container-productos .row h3{
-		margin-bottom: 20px;
-		font-size: 18px;
-	}
-	.container-productos{
-		display: flex;
-		padding: 10%;
-		padding-top: 10px;
-		margin-bottom: 50px;
-  	}
-	.footer-v1 ul{
-		list-style: none;
-		margin-bottom: auto;
-	}
-	.footer-v1 a{
-		text-decoration: none;
-		margin-bottom: 20px;
-		font-size: 16px;
-	}
 	.container-principal ul{
 		list-style: none;
 	}
 	.container-principal a{
 		text-decoration: none;
 	}
-	.articule .relleno{
-		text-align: center;
-		padding-left: 10px;
-		margin: auto;
-	}
-	.relleno .formulario{
-		padding-left: 13px;
-		padding-right: 13px;
-		max-width: 100%;
-	}
-	
-	.img-contact img{
-		text-align: center;
-		width: 50px;
-		height: auto;
-	}
-	.relleno{
-		text-align: center;
-	}
-	.container-envios{
-		display: flex;
-		padding: 10%;
-		padding-top: 10px;
-		margin-bottom: 50px;
-	}
-	.relleno{
-		justify-content: center;
-	}
-	.container-contactos{
-		display: flex;
-		padding: 10%;
-		padding-top: 10px;
-		margin-bottom: 50px;
-		max-width: 100%;
-	}
-	.container-contactos h3{
- 		text-align: center;
-	}
-	.container-contactos a{
-		text-decoration: none;
-	}
-	.container-contactos ul{
-		list-style: none;
-	}
 	.container-principal img:hover{
 		transform: scale(1.2, 1.2);
+	}
+	.container-productos{
+		justify-content: center;
+		display: flex;
+		padding: 15%;
+		padding-top: 10px;
+		margin-bottom: 50px;
+		max-width: 100%;
+  	}
+	.container-productos img{
+		margin-bottom: 30px;
+		font-size: 12px;
+		height: 100px;
+		width: auto;
+	}
+	.container-productos .row h2{
+		font-size: 20px;
+	}
+	.container-productos .row h3{
+		margin-bottom: 20px;
+		font-size: 18px;
 	}
 	.container-productos img:hover{
 		transform: scale(1.2, 1.2);
@@ -159,15 +132,54 @@
 		width: auto;
 		height: 400px;
 	}
-	.container-principal{
+	.img-contact img{
+		text-align: center;
+		width: 50px;
+		height: auto;
+	}
+	.container-envios{
+		display: flex;
+		padding: 30%;
+		padding-top: 10px;
+		padding-bottom: 5%;
+		text-align: center;
+	}
+	.container-rrss{
+		justify-content: center;
+		display: flex;
+		padding: 20%;
+		padding-top: 10px;
+		padding-bottom: 5%;
+		max-width: 100%;
+	}
+	.container-rrss h3{
+ 		text-align: center;
+	}
+	.container-rrss a{
+		text-decoration: none;
+	}
+	.container-rrss ul{
+		list-style: none;
+	}
+	.container-rrss .card{
+		margin-bottom: 10px;
+	}
+	.relleno{
+		justify-content: center;
 		display: flex;
 		padding: 10%;
 		padding-top: 10px;
-		margin-bottom: 50px;
-	}
-	hr{
+		padding: 10px;
 		max-width: 100%;
 	}
+	.relleno .formulario{
+		padding-left: 13px;
+		padding-right: 13px;
+		max-width: 100%;
+	}
+	
+	
+	
 	
 	
 
